@@ -21,10 +21,14 @@ body {
 
 #conteudo {
 	/*display:table;*/
-	padding:10px 0px 0px 20px;
+	/*padding:10px 0px 0px 20px;*/
 	border:0px solid #03F;	
 	/*width:840px;*/
 	width: 100%;
+	padding-left: 10px;
+	padding-right: 10px;
+	/*padding-left: 10%;
+	padding-right: 10%;*/
 	background-color:#FFF;
 	/*left: 50%;*/
     /*margin: 0px 0px 0px -445px;
@@ -81,13 +85,20 @@ body {
 			background-color:#807f84;
 			float:left;
 		}
-		
+		/*
 		#conteudo #conteudoEsquerdoInterno .blocoTituloPagina .tituloPagina {
 			font-family:Arial;
 			font-size:20px;
 			color:#7faa39;	
 			margin:0px 0px 0px 3px;
 			float:left;
+		}*/
+
+		.tituloPagina{
+			font-family:Arial;
+			font-size:20px;
+			color:#7faa39;	
+			margin:0px 0px 0px 3px;
 		}
 	
 		#conteudo #conteudoEsquerdoInterno #conteudoMeioInterno {
@@ -648,8 +659,8 @@ body {
 
 
 #rodape {
-	/*position:fixed;
-	clear:both;*/
+	/*position:fixed;*/
+	/*clear:both;*/
 	color:#FFF;
 	font-family:Arial;
 	font-size:11px;
@@ -1079,10 +1090,10 @@ CSS GERAL
 
 .icoHome2 {
 	cursor:pointer;
-	width:277px;
+	/*width:277px;*/
 	height:122px;
-	background-image:url('../imagens/icoHome2.png')	;
-	float:left;
+	background-image:url('../imagens/icoHome2.png') 0 0 no-repeat;
+	/*float:left;*/
 	margin:0px 20px 20px 0px;
 }
 
@@ -1091,25 +1102,25 @@ CSS GERAL
 }
 
 .icoHome3 {
-	cursor:pointer;
+	/*cursor:pointer;
 	width:277px;
 	height:122px;
-	background-image:url('../imagens/icoHome3.png')	;
-	/*float:left;*/
-	margin:0px 20px 20px 120px;
+	background:url('../imagens/icoHome3.png') 0 0 no-repeat;
+	float:left;
+	margin:0px 20px 20px 120px;*/
 }
 
 .icoHome3:hover {
-	background-image:url('../imagens/icoHome3a.png')	;
+	background:url('../imagens/icoHome3a.png') 0 0 no-repeat;
 }
 
 .icoHome4 {
 	cursor:pointer;
-	width:277px;
+	/*width:277px;*/
 	height:122px;
-	background-image:url('../imagens/icoHome4.png')	;
+	background:url('../imagens/icoHome4.png') 0 0 no-repeat;
 	/*float:left;*/
-	margin:0px 20px 20px 0px;
+	/*margin:0px 20px 20px 0px;*/
 }
 
 .icoHome4:hover {
