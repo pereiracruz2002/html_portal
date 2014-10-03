@@ -417,9 +417,9 @@ body {
 	
 			#conteudo #topo .menuTopo {
 				border:0px solid #F00;
-				width:360px;
+				/*width:360px;
 				float:left;
-				margin:17px 0px 0px 40px;
+				margin:17px 0px 0px 40px;*/
 			}
 
 				#conteudo #topo .menuTopo .menu {
@@ -1195,6 +1195,11 @@ CSS GERAL
 	padding:15px 10px 15px 10px;
 	margin:-10px 0px 0px 0px;
 	background-color:#df4e4e;
+}
+
+.navbar-default {
+background-color: none;
+border-color: none;
 }
 
 /*

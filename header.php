@@ -16,9 +16,9 @@
     <body>
     	<div class="container">
     		<div class="row">
-				<div class="col-md-1 col-xs-1 col-sm-1">
+				<div class="col-md-1">
 				</div>
-                    <div class="col-md-10 col-xs-10 col-sm-10">
+                    <div class="col-md-10 col-xs-12 col-sm-12">
         <div id="conteudo"> 
             <div class="row">
                 <div class="col-md-12 col-xs-12 col-sm-12">
@@ -32,7 +32,7 @@
               <span class="icon-bar"></span>
             </button>
 
-            <a class="navbar-brand logo" href="#"><img src="imagens/logoFIS.png" class="img-responsive" /></a>
+            <a class="navbar-brand" href="#"><img src="imagens/logoFIS.png" class="img-responsive" /></a>
           </div>
           <div class="navbar-collapse collapse">
             <ul class="nav navbar-nav">
@@ -41,7 +41,7 @@
               <li><a href="#">Contatos</a></li>
               <li><a href="#">F.A.C</a></li>
             </ul>
-            <div id="topo"class="pull-right">
+            <div id="topo" class="pull-right">
                 <div class="menuTopo">
                     <div class="acesso">
                         <div id="login">

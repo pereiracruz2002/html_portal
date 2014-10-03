@@ -4,13 +4,15 @@
 					<div class="blocoTituloPagina">
                 		<div class="tituloPagina">Cadastro</div>
             		</div>
-            		<div class="col-md-6 col-xs-12 col-sm-12">
-            			<a class="pull-right" href="#"><img class="img-responsive" src="imagens/icoHome3.png" alt=""></a>
+            		<div class="col-md-4 col-md-offset-2 col-xs-12 col-sm-12">
+            			<a class="" href="#"><img class="img-responsive" src="imagens/icoHome3.png" alt=""></a>
 						<!--<div class="icoHome3"></div>-->
             		</div>
-            		<div class="col-md-6 col-xs-12 col-sm-12">
-						<a class="pull-left" href="#"><img class="img-responsive" src="imagens/icoHome4.png" alt=""></a>
+            		<div class="col-md-4 col-xs-12 col-sm-12">
+						<a class="" href="#"><img class="img-responsive" src="imagens/icoHome4.png" alt=""></a>
             		</div>
+            		<div class="col-md-2"></div>
+            		<div class="col-md-2"></div>
 	        	</div>
 				
         	</div><!--row-->
