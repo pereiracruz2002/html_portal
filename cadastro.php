@@ -14,8 +14,7 @@
 	        	</div>
 				
         	</div><!--row-->
-		</div><!--conteudo-->
-		<div class="row">
+        	<div class="row">
 			<div class="col-md-12 col-xs-12 col-sm-12">
 				<div id="rodape">
 					<!--<div class="sombraTopoRodape"><img src="imagens/sombraRodape.png" class="img-responsive" /></div>-->
@@ -25,6 +24,8 @@
 				</div>
 			</div>
 	</div>
+		</div><!--conteudo-->
+		
 
 </div>
 <?php include_once (dirname(__FILE__).'/footer.php');?>
