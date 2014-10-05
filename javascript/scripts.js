@@ -9,7 +9,7 @@ $( document ).ready(function() {
 	maskPagina();
 	
 	// Banner Meio da Tela
-	$('#conteudoBanner').jcarousel({ auto: 15, wrap:'both', scroll:1 });
+	//$('#conteudoBanner').jcarousel({ auto: 15, wrap:'both', scroll:1 });
 
 	var config = {
 	  '.chosen-select'           : {},
@@ -22,6 +22,7 @@ $( document ).ready(function() {
 	// Caso exista ou não exista Select:form
 	if( $("body").find(".chosen-select").length >= 1){
 		for (var selector in config) {
+			console.log(selector)
 		  $(selector).chosen(config[selector]);
 		}	
 	}
@@ -64,8 +65,8 @@ function elementosPagina(){
 	var largura = $(window).width(); 
 	var altura  = $(window).height();
 	
-	$("#conteudo").css('height', altura-10);
-	$("#rodape").css('top', altura-126)	
+	//$("#conteudo").css('height', altura-10);
+	//$("#rodape").css('top', altura-126)	
 }
 
 window.onresize = function(event) {

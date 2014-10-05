@@ -14,85 +14,64 @@
         <link rel="stylesheet" href="javascript/jcarousel/skin.css" type="text/css" />
     </head>
     <body>
-         <!-- Modal -->
-    <div id="myModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-      <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header">
-          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-          <h4 class="modal-title">Título do Modal</h4>
-        </div>
-        <div class="modal-body">
-          Conteúdo do Modal
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
-          <button type="button" class="btn btn-primary">Salvar</button>
-        </div>
-      </div><!-- final do modal-content -->
-    </div><!-- final do modal-dialog -->
-    </div>
-    <!--fim do Modal-->
+       <div class="container">
+        <div class="row">
+           <div class="col-md-1 col-xs-1 hidden-xs"></div>
+             <div class="col-md-10 col-xs-12 col-sm-12">
+                <div id="conteudo" class="row">
+                  <div class="col-md-12 col-sm-12 col-xs-12 hidden-xs">
+                    <div class="col-md-2 col-xs-2 col-sm-2" id="logo">
+                      <a href="index.html" title="Curso de Bootstrap">
+                        <img src="imagens/logoFIS.png" alt="" class="img-responsive" />
+                      </a>
+                    </div>
 
-    <div class="container">
-      <div class="row" style="margin-top: 10px;">
-        <div class="col-md-5" id="logo">
-          <a href="index.html" title="Curso de Bootstrap">
-            <img src="img/logo-bootstrap.gif" alt="Curso de Bootstrap" class="img-responsive">
-          </a>
-        </div>
-        <div class="col-md-7 text-right" id="modal-login" style="margin-top: 20px;">
-          
-          <a href="#" class="btn btn-danger" rel="popouver" data-placement="bottom" data-toggle="popover" title="" data-content="Descrição do Popouver completa aqui..." data-original-title="Título do Popouver">Clique para abrir o popouver</a>
-          
-          <a href="#myModal" role="button" class="btn btn-info" data-toggle="modal">Abrir uma Caixa Modal</a>
-      </div>
-    </div>
+                    <div class="col-md-6 col-xs-6 col-sm-6">
+                      <div class="navbar navbar-default" role="navigation">
+                        <div class="navbar-header">
+                          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                            <span class="sr-only">Navegação</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                          </button>
+                        </div>
+                        <div id="topo" class="collapse navbar-collapse navbar-ex1-collapse">
+                          <ul class="nav navbar-nav menuTopo">
+                            <li class="active menu"><a href="#">Página Inicial</a></li>
+                            <li class="menu"><a href="#">Suporte</a></li>
+                            <li class="menu"><a href="#">Contatos</a></li>
+                            <li class="menu"><a href="#">F.A.C</a></li>
+                          </ul>
+                        </div><!--final navbar-collapse -->
+                      </div><!--final da navbar-->
+                    </div><!--final da coluna-->
 
-      <div class="row" style="margin-top: 20px;">
-        <div class="col-md-12">
-          <div class="navbar navbar-default" role="navigation">
-            <div class="navbar-header">
-              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-                <span class="sr-only">Navegação</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button>
-            </div>
-            <div class="collapse navbar-collapse navbar-ex1-collapse">
-              <ul class="nav navbar-nav">
-                <li class="active"><a href="index.html">Inicial</a></li>
-                <li><a href="#">Quem Somos</a></li>
-                <li><a href="#">Serviços</a></li>
-                <li><a href="#">Portifólio</a></li>
-                <li><a href="#">Contatos</a></li>
-                <li class="dropdown">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Menu DropDown <b class="caret"></b></a>
-                  <ul class="dropdown-menu">
-                    <li><a href="inscricao1.html">Inscrição</a></li>
-                    <li><a href="abas.html">Conteúdo com Abas</a></li>
-                    <li><a href="blog.html">Nosso Blog</a></li>
-                  </ul>
-                </li>
-              </ul>
-              <form class="navbar-form pull-right hidden-xs" role="search">
-                <div class="form-group">
-                  <input type="text" class="form-control" placeholder="Digite a palavra...">
+                    <div class="col-md-4 col-md-7 col-sm-7">
+                      <div class="acesso">
+                        <!--<div id="login">
+                          <div id="btnFechar" onclick="login('fechar');"><img src="javascript/jcarousel/btnFechar.png" width="14" height="14" /></div>
+                    
+                            <span class="formLabel">Login de usuário</span>
+                            <input type="text" id="txtUsuario" class="textBox" placeholder="Digite o seu usuário" maxlength="20" />
+                    
+                            <span class="formLabel">Senha de acesso</span>
+                            <input type="password" id="txtSenha" class="textBox" placeholder="Digite a sua senha" maxlength="20" />
+                    
+                            <div class="btnLogar">FAZER LOGIN</div>
+                    
+                            <div class="notice">Esqueceu a senha <b>Clique Aqui</b></div>
+                            <div class="notice">Alterar a senha <b>Clique Aqui</b></div>
+                        </div>-->
+                           <!--<div class="btnAcessarPortal" onclick="login('mostrar');">Acessar o portal</div>
+                            <div class="btnAcessoPortal">Quero ter acesso ao portal</div>-->
+                            <div class="btnSair pull-right">Sair</div>
+                            <div class="btnLogado pull-right">Olá, <b>Gilberto Colombo</b> (<span class="dominio">Admin</span></div>
+                      </div>
+                      
+                    </div>
+                    <div class="col-md-12 col-xs-12 col-sm-12">
+                        <hr />
+                    </div>
                 </div>
-                <button type="submit" class="btn btn-default">Buscar</button>
-              </form>
-            </div><!--final navbar-collapse -->
-          </div><!--final da navbar-->
-        </div><!--final da coluna-->
-      </div><!--final da linha-->
-          <!-- jQuery direto do local -->
-    <script src="javascript/jquery-1.10.2.js"></script>
-    
-    <!-- jQuery direto do CDN (somente online) -->
-    <!--<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>-->
-    
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="javascript/bootstrap.js"></script>
-    </body>
-</html>
+          

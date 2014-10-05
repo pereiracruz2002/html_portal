@@ -157,7 +157,7 @@ body {
 			
 			 .titulo {
 				/*width:808px;*/
-				background-color:#7faa39;
+				background-color:#024697;
 				color:#FFF;
 				font-family:Arial;
 				font-size:11px;
@@ -279,7 +279,7 @@ body {
 			
 			 #conteudoMeio .titulo {
 				/*width:578px;*/
-				background-color:#7faa39;
+				background-color:#024697;
 				color:#FFF;
 				font-family:Arial;
 				font-size:11px;
@@ -302,7 +302,7 @@ body {
 				line-height:15px;
 			}
 				 .texto .link {
-					color:#7faa39;
+					color:#024697;;
 					font-weight:bold;
 					cursor:pointer;
 				}
@@ -389,7 +389,7 @@ body {
 				}
 				
 					#conteudo #conteudoDireito .news .textoPdf .link {
-						color:#7faa39;
+						color:#024697;
 						font-weight:bold;
 						cursor:pointer;
 					}
@@ -399,7 +399,7 @@ body {
 					}
 				
 					#conteudo #conteudoDireito .news .texto .link {
-						color:#7faa39;
+						color:#024697;
 						font-weight:bold;
 						cursor:pointer;
 					}
@@ -439,7 +439,7 @@ body {
 
 				#conteudo #topo .menuTopo .menu {
 					float:left;
-					color:#807f84;
+					color:#024697;;
 					font-family:Arial;
 					font-size:11px;
 					display:table;
@@ -450,7 +450,7 @@ body {
 				}
 				
 				#conteudo #topo .menuTopo .menu:hover {
-					background-color:#7faa39;
+					background-color:#024697;
 					color:#FFF;
 				}
 				
@@ -460,7 +460,7 @@ body {
 				}
 				
 				#conteudo #topo .menuTopo .selecionado {
-					background-color:#807f84;
+					background-color:#024697;;
 					color:#FFF;
 				}
 
@@ -582,7 +582,7 @@ body {
 					
 			#conteudo  .acesso .btnAcessarPortal {
 				float:right;
-				background-color:#7faa39;
+				background-color:#024697;
 				color:#FFF;
 				font-family:Arial;
 				font-size:11px;
@@ -621,7 +621,7 @@ body {
 				}
 			
 			#conteudo  .acesso .btnAcessarPortal:hover {
-				background-color:#668b2b;
+				background-color:#024697;
 			}
 			
 			#conteudo  .acesso .btnAcessoPortal {
@@ -1234,6 +1234,21 @@ CSS GERAL
 	display: block;
 }
 
+
+#destaque h2{
+	color:#024697;;
+}
+
+#destaque p{
+	font-family: Arial;
+	font-size: 11px;
+	line-height: 15px;
+}
+
+#destaque a.btn{
+	color:#FFF;
+	background-color: #024697;
+}
 /*
 
 

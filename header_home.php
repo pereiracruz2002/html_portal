@@ -72,10 +72,9 @@
                             <div class="notice">Esqueceu a senha <b>Clique Aqui</b></div>
                             <div class="notice">Alterar a senha <b>Clique Aqui</b></div>
                         </div>-->
-                           <!--<div class="btnAcessarPortal" onclick="login('mostrar');">Acessar o portal</div>
-                            <div class="btnAcessoPortal">Quero ter acesso ao portal</div>-->
-                            <div class="btnSair pull-right">Sair</div>
-                            <div class="btnLogado pull-right">Olá, <b>Gilberto Colombo</b> (<span class="dominio">Admin</span></div>
+                           <div class="btnAcessarPortal" onclick="login('mostrar');">Acessar o portal</div>
+                            <div class="btnAcessoPortal">Quero ter acesso ao portal</div>
+                            
                       </div>      
                     </div>
                     <div class="col-md-12 col-xs-12 col-sm-12">
@@ -88,7 +87,14 @@
                       <img src="imagens/logoFIS.png" alt="" class="img-responsive" />
                   </a>
                 </div>
+                 <div class="col-xs-12  hidden-md hidden-lg hidden-sm hidden-lg">
+                     <div class="acesso">
+                        <div class="btnAcessarPortal pull-left" onclick="login('mostrar');">Acessar o portal</div>
+                        <div class="btnAcessoPortal pull-right">Quero ter acesso ao portal</div>
+                     </div>
+                 </div>
                  <div class="col-xs-3 hidden-md hidden-lg hidden-sm hidden-lg"></div>
+                
                  <div class="col-xs-6 col-xs-offset-6 hidden-md hidden-lg hidden-sm hidden-lg">
                     <div class="navbar navbar-default" role="navigation">
                       <div class="navbar-header">
