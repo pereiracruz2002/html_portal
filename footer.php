@@ -1,9 +1,8 @@
             <div class="row">
-                <div id="rodape">
-            <!--<div class="sombraTopoRodape"><img src="imagens/sombraRodape.png" class="img-responsive" /></div>-->
+                <!--<div id="rodape">
                 Termos de usdo deste portal e política de privacidade | <span class="link">Contate-nos</span><br />
                 Todos os direitos reservados 2014 <b>Promint</b>. Inc. <b>Resolução mínima 1024x768</b>
-                </div> 
+                </div> -->
             </div>
             </div><!--col-md-10-->
         </div>

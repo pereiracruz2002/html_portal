@@ -11,26 +11,18 @@
 
                           <!-- Wrapper for slides -->
                           <div class="carousel-inner">
-                            <div class="item active">
-                              <img src="imagens/banner1.jpg" alt="" class="img-responsive">
-                            </div>
-                            <div class="item">
-                              <img src="imagens/banner2.jpg" alt="" class="img-responsive">
-                            </div>
-                            <div class="item">
-                              <img src="imagens/banner3.jpg" alt="" class="img-responsive">
-                            </div>
-
+                            <div class="active item"><img class="media-object img-rounded" src="http://placehold.it/712x215.jpg/B7394C"></div>
+                            <div class="item"><img class="media-object img-rounded" src="http://placehold.it/712x215.jpg/3895B8"></div>
+                            <div class="item"><img class="media-object img-rounded" src="http://placehold.it/712x215.jpg/BAB436"></div>
                           </div>
-
-                          <!-- Controls -->
-                          <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-                            <span class="glyphicon glyphicon-chevron-left"></span>
+                          <!-- Carousel navegação -->
+                          <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                            <span class="icon-prev"></span>
                           </a>
-                          <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-                            <span class="glyphicon glyphicon-chevron-right"></span>
+                          <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                            <span class="icon-next"></span>
                           </a>
-                    </div>
+                        </div>
                     <div class="row">
                         <div class="col-md-12 col-xs-12 col-sm-12">
                             <div id="conteudoMeio">
@@ -68,6 +60,11 @@
                               <p><a class="btn btn-default" href="#" role="button">Ver Detalhes »</a></p>
                         </div>
                     </div>
+                    <div class="row">
+                      <div class="col-md-9 col-xs-9 col-sm-9">
+                      <div class="nTtitulo">Produto e Serviços</div>
+                  </div>
+                    </div>
                         </div>
                     </div>
 	        	</div>
@@ -80,7 +77,7 @@
                     </div>
                     <!-- Linha de Notícia Baixar PDF -->
                     <div class="news">
-                        <div class="nTtitulo">Confira agora mesmo tudo que preparamos para você</div>
+                       
                         <div class="icoPdf"><img src="imagens/icoPdf.png" width="22" height="24" /></div>
                         <div class="textoPdf"><span class="link">Clique aqui</span> e faça o donwnload  do White Paper</div>
                     </div>
@@ -89,7 +86,25 @@
                         <div class="nTtitulo">Confira agora mesmo tudo que preparamos para você</div>
                         <div class="texto">Veja o demo que preparamos  para lhe demonstrar as fácilidades desse ambiente...<span class="link">Leia Mais</span></div>
                     </div>
+
+                    <div class="news">
+                      <img src="imagens/lateral.jpg" alt="" class="img-responsive" />
+                      <div class="texto">Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis</div>
+                    </div>
+                    <div class="news">
+                        <div class="nTtitulo padBottom10">Nosso Escritórios</div>
+                         <img src="imagens/mundo.jpg" alt="" class="img-responsive" />
+                    </div>
                 </div>
+      
+                <div class="row">
+                  <div class="col-md-12">
+                    <div id="rodape">
+                    Termos de usdo deste portal e política de privacidade | <span class="link">Contate-nos</span><br />
+                    Todos os direitos reservados 2014 <b>Promint</b>. Inc. <b>Resolução mínima 1024x768</b>
+                    </div> 
+                  </div>
+            </div>
 				
         	</div><!--row-->
         	

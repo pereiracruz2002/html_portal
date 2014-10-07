@@ -4,8 +4,8 @@
 body {
 	margin:0px;
 	padding:0px;
-	background-color:#e1e1e1;
-	background-image:url('../imagens/backgroundPortal.jpg');
+	background-color:#fff;
+	/*background-image:url('../imagens/backgroundPortal.jpg');*/
 }
 
 
@@ -109,7 +109,7 @@ body {
 		.tituloPagina{
 			font-family:Arial;
 			font-size:20px;
-			color:#7faa39;	
+			color:#024697;	
 			margin:0px 0px 0px 3px;
 		}
 	
@@ -345,9 +345,9 @@ body {
 		
 			#conteudo #conteudoDireito .news {
 				padding:10px 0px 0px 10px;
-				border-bottom:1px solid #999;
-				border-bottom-style:dotted;
-				display:table;
+				border-bottom:1px solid #EAEAEA;
+				border-bottom-style:solid;
+				/*display:table;*/
 			}
 			
 			#conteudo #conteudoDireito .news:hover {
@@ -413,10 +413,10 @@ body {
 				}
 	
 			#conteudo #conteudoDireito .titulo {
-				background-image:url('../imagens/icoNovidades.png')	;
+				/*background-image:url('../imagens/icoNovidades.png')	;
 				background-position:5px 4px;
-				background-repeat:no-repeat;
-				background-color:#d6d6d7;
+				background-repeat:no-repeat;*/
+				background-color:#f1f1f1;
 				color:#6c6c6d;
 				font-family:Arial;
 				font-size:11px;
@@ -438,13 +438,13 @@ body {
 			}
 
 				#conteudo #topo .menuTopo .menu {
-					float:left;
+					/*float:left;*/
 					color:#024697;;
 					font-family:Arial;
 					font-size:11px;
-					display:table;
-					padding:8px 10px 8px 10px;
-					margin:0px 7px 0px 0px;
+					/*display:table;*/
+					/*padding:3px ;*/
+					/*margin:0px 7px 0px 0px;*/
 					border:0px solid #333;
 					cursor:pointer;
 				}
@@ -681,8 +681,8 @@ body {
 	font-size:11px;
 	text-align:center;
 	line-height:14px;
-	background-image:url('../imagens/rodape.jpg');
-	background-repeat:repeat-x;
+	/*background-image:url('../imagens/rodape.jpg');
+	background-repeat:repeat-x;*/
 	height:38px;
 	/*width:860px;*/
 	padding:8px 0px 0px 0px;
@@ -788,20 +788,24 @@ CSS GERAL
 }
 
 .btn {
-	display:table;
+	padding: 3px 12px;
+	border-color:#ccc;
+	color:#000;
+	font-size:12px;
+	/*display:table;
 	cursor:pointer;
 	color:#FFF;
 	text-align:center;
 	font-family:Arial;
 	font-size:12px;	
-	border:1px solid #d4d4d4;
-	background-color:#CCC;
+	border:1px solid #024697;
+	background-color:#024697;
 	padding:8px 15px 8px 15px;
 	-webkit-box-shadow: inset 0px 0px 8px 0px rgba(50, 50, 50, 0.18);
 	-moz-box-shadow:    inset 0px 0px 8px 0px rgba(50, 50, 50, 0.18);
-	box-shadow:         inset 0px 0px 8px 0px rgba(50, 50, 50, 0.18);
+	box-shadow:         inset 0px 0px 8px 0px rgba(50, 50, 50, 0.18);*/
 	/* IE  */
-	-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=2, Direction=150, Color='#E1E1E1')"; 	
+	/*-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=2, Direction=150, Color='#E1E1E1')"; */	
 }
 
 .btnVoltar {
@@ -811,8 +815,8 @@ CSS GERAL
 	text-align:center;
 	font-family:Arial;
 	font-size:12px;	
-	border:1px solid #d4d4d4;
-	background-color:#7faa39;
+	border:1px solid #024697;
+	background-color:#024697;
 	padding:8px 15px 8px 15px;
 	-webkit-box-shadow: inset 0px 0px 8px 0px rgba(50, 50, 50, 0.18);
 	-moz-box-shadow:    inset 0px 0px 8px 0px rgba(50, 50, 50, 0.18);
@@ -844,7 +848,7 @@ CSS GERAL
 }
 
 .btnVoltar:hover {
-	background-color:#6a8f2e;	
+	background-color:#2667B7;	
 }
 
 .btnAlterar {
@@ -854,8 +858,8 @@ CSS GERAL
 	text-align:center;
 	font-family:Arial;
 	font-size:12px;	
-	border:1px solid #d4d4d4;
-	background-color:#7e8f6e;
+	border:1px solid #024697;
+	background-color:#024697;
 	padding:8px 15px 8px 15px;
 	-webkit-box-shadow: inset 0px 0px 8px 0px rgba(50, 50, 50, 0.18);
 	-moz-box-shadow:    inset 0px 0px 8px 0px rgba(50, 50, 50, 0.18);
@@ -865,7 +869,7 @@ CSS GERAL
 }
 
 .btnAlterar:hover {
-	background-color:#667459;	
+	background-color:#2667B7;	
 }
 
 .mostrar {
@@ -900,8 +904,8 @@ CSS GERAL
 	text-align:center;
 	font-family:Arial;
 	font-size:12px;	
-	border:1px solid #d4d4d4;
-	background-color:#65943b;
+	border:1px solid #024697;
+	background-color:#024697;
 	padding:8px 15px 8px 15px;
 	-webkit-box-shadow: inset 0px 0px 8px 0px rgba(50, 50, 50, 0.18);
 	-moz-box-shadow:    inset 0px 0px 8px 0px rgba(50, 50, 50, 0.18);
@@ -911,7 +915,7 @@ CSS GERAL
 }
 
 .btnIncluir:hover {
-	background-color:#537f2c;	
+	background-color:#2667B7;	
 }
 
 .btnExcluir {
@@ -921,8 +925,8 @@ CSS GERAL
 	text-align:center;
 	font-family:Arial;
 	font-size:12px;	
-	border:1px solid #d4d4d4;
-	background-color:#67755b;
+	border:1px solid #024697;
+	background-color:#024697;
 	padding:8px 15px 8px 15px;
 	-webkit-box-shadow: inset 0px 0px 8px 0px rgba(50, 50, 50, 0.18);
 	-moz-box-shadow:    inset 0px 0px 8px 0px rgba(50, 50, 50, 0.18);
@@ -932,7 +936,7 @@ CSS GERAL
 }
 
 .btnExcluir:hover {
-	background-color:#535f49;	
+	background-color:#2667B7;	
 }
 
 .cmp {
@@ -1189,8 +1193,8 @@ CSS GERAL
 	}
 	
 	#paginacao .atual {
-		border:1px solid #618923 !important;
-		background-color:#7da839 !important;
+		border:1px solid #024697 !important;
+		background-color:#024697 !important;
 	}
 	
 .cb {
@@ -1249,7 +1253,44 @@ CSS GERAL
 	color:#FFF;
 	background-color: #024697;
 }
-/*
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus{
+	color:#024697;
+}
+
+.navbar-collapse{
+	padding-right: 0;
+}
+
+.navbar-nav > li > a {
+	padding: 8px 0px 8px 10px;
+	line-height: 15px;
+}
+
+#topo .menuTopo li a{
+	color:#024697;
+	font-weight: bold;
+}
+
+#topo .menuTopo li a:hover{
+	background-color: #FFF;
+}
+
+.form-control {
+	display: block;
+	width: 100%;
+	height: 27px;
+	padding: 5px 12px;
+	font-size: 12px;
+	line-height: 1.42857143;
+	color: #555;
+}
+
+.navbar-form .control-label{
+	color: #024697;
+	font-size: 12px;
+}
+/* 
 
 
 
