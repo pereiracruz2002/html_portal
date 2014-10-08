@@ -105,9 +105,16 @@
                         <button type="submit" class="btn btn-default">Buscar</button>
                       </form>
                  </div>
-                 <div class="col-xs-3 hidden-md hidden-lg hidden-sm hidden-lg"></div>
                 
-                 <div class="col-xs-6 col-xs-offset-6 hidden-md hidden-lg hidden-sm hidden-lg">
+                 <div class="col-xs-12  hidden-md hidden-lg hidden-sm hidden-lg">
+                    <form class="navbar-form pull-right hidden-xs" role="search">
+                        <div class="form-group">
+                          <input type="text" class="form-control" placeholder="Digite a palavra...">
+                        </div>
+                        <button type="submit" class="btn btn-default">Buscar</button>
+                      </form>
+                 </div>
+                 <div class="col-xs-12  hidden-md hidden-lg hidden-sm hidden-lg">
                     <div class="navbar navbar-default" role="navigation">
                       <div class="navbar-header">
                         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">

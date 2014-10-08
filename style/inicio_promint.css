@@ -42,17 +42,8 @@ body {
 	/*padding-left: 10%;
 	padding-right: 10%;*/
 	background-color:#FFF;
-	/*left: 50%;*/
-    /*margin: 0px 0px 0px -445px;
-    position: absolute;
-    top: 0px;*/
-	-webkit-box-shadow: 0px 0px 5px 0px rgba(50, 50, 50, 0.35);
-	-moz-box-shadow:    0px 0px 5px 0px rgba(50, 50, 50, 0.35);
-	box-shadow:         0px 0px 5px 0px rgba(50, 50, 50, 0.35);
-	/* IE */
-	filter: progid:DXImageTransform.Microsoft.Shadow(Color=#cccccc, Strength=5, Direction=90),
-	progid:DXImageTransform.Microsoft.Shadow(Color=#cccccc, Strength=5, Direction=180),
-	progid:DXImageTransform.Microsoft.Shadow(Color=#cccccc, Strength=5, Direction=270);
+	border:1px solid #ccc;
+
 }
 
 	#conteudo #topo {
@@ -344,10 +335,10 @@ body {
 		}
 		
 			#conteudo #conteudoDireito .news {
-				padding:10px 0px 0px 10px;
+				padding:12px 0px 13px 10px;
 				border-bottom:1px solid #EAEAEA;
 				border-bottom-style:solid;
-				/*display:table;*/
+				display:table;
 			}
 			
 			#conteudo #conteudoDireito .news:hover {
@@ -669,24 +660,21 @@ body {
 			}
 
 			#rodape {
-				margin:80px 0px 0px -15px\0/ !important;
+				/*margin:80px 0px 0px -15px\0/ !important;*/
 			}
 
 
 #rodape {
-	/*position:fixed;*/
-	/*clear:both;*/
-	color:#FFF;
+	color: #51524e;
 	font-family:Arial;
-	font-size:11px;
-	text-align:center;
-	line-height:14px;
-	/*background-image:url('../imagens/rodape.jpg');
-	background-repeat:repeat-x;*/
-	height:38px;
-	/*width:860px;*/
+	font-size:10px;
+	line-height:12px;
 	padding:8px 0px 0px 0px;
-	/*margin:80px 0px 0px -20px;*/
+	border-right: 1px solid #ccc;
+	border-left: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	padding:10px 10px;
+
 }
 
 #rodape .sombraTopoRodape {
@@ -1250,8 +1238,8 @@ CSS GERAL
 }
 
 #destaque a.btn{
-	color:#FFF;
-	background-color: #024697;
+	color:#000;
+	background-color: #FFF;
 }
 
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus{
@@ -1290,14 +1278,31 @@ CSS GERAL
 	color: #024697;
 	font-size: 12px;
 }
-/* 
 
+#infodados{
+	font-family: Arial;
+	font-size: 11px;
+	line-height: 19px;
+}
 
+#prodservico{
+	font-family: Arial;
+	font-size: 12px;
+}
 
+#prodservico .link{
+	color: #024697;
+	font-weight: bold;
+}
 
+#tit-rodape{
+	padding:5px;
+	font-weight: bold;
+	font-family: Arial;
+	font-size: 12px;
+	background-color: #4099FF;
+	color:#fff;
+    border-right: 1px solid #ccc;
+    border-left: 1px solid #ccc;
 
-
-
-
-
-*/
+}

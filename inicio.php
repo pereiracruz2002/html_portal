@@ -1,7 +1,7 @@
 <?php include_once (dirname(__FILE__).'/header_promint.php');?>
 	
 	        	<div class="col-md-9 col-xs-12 col-sm-12">
-					<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+					     <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
                           <!-- Indicators -->
                           <ol class="carousel-indicators">
                             <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
@@ -61,9 +61,15 @@
                         </div>
                     </div>
                     <div class="row">
-                      <div class="col-md-9 col-xs-9 col-sm-9">
-                      <div class="nTtitulo">Produto e Serviços</div>
-                  </div>
+                      <div class="col-md-12 col-xs-12 col-sm-12">
+                        <hr />
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-md-12 col-xs-12 col-sm-12">
+                          <div id="prodservico"><b>Produtos e Serviços</b><br />Veja quais são os serviços e produtos oferecidos pela Fidelity para melhorar a performance de sua carteira de cartões...<span class="link">Saiba Mais</span></div>
+
+                      </div>
                     </div>
                         </div>
                     </div>
@@ -77,7 +83,7 @@
                     </div>
                     <!-- Linha de Notícia Baixar PDF -->
                     <div class="news">
-                       
+                      <div class="nTtitulo">Confira agora mesmo tudo que preparamos para você</div>
                         <div class="icoPdf"><img src="imagens/icoPdf.png" width="22" height="24" /></div>
                         <div class="textoPdf"><span class="link">Clique aqui</span> e faça o donwnload  do White Paper</div>
                     </div>
@@ -95,16 +101,28 @@
                         <div class="nTtitulo padBottom10">Nosso Escritórios</div>
                          <img src="imagens/mundo.jpg" alt="" class="img-responsive" />
                     </div>
+
+                    <div class="news">
+                      <div id="infodados">
+                        Av. Americana Fontes 1811 -18 andar<br />
+                        CEP 21540-007 - São Paulo - Brasil<br />
+                        Tel. 55(11) 2459-8871<br />
+                        Tel. 55(11) 2733-3785<br />
+                      </div>
+                    </div>
+                </div>  
+                <!--<div id="tit-rodape"  class="col-md-12">
+                    <p class="pull-left">2014 Promint Brasil - Todos os direitos Reservados</p>
+                    <p class="pull-right">Termos legais e política de privacidade</p>
                 </div>
-      
-                <div class="row">
-                  <div class="col-md-12">
-                    <div id="rodape">
+                <div id="rodape" class="col-md-12">
+                 
                     Termos de usdo deste portal e política de privacidade | <span class="link">Contate-nos</span><br />
                     Todos os direitos reservados 2014 <b>Promint</b>. Inc. <b>Resolução mínima 1024x768</b>
-                    </div> 
-                  </div>
-            </div>
+                 
+                </div> -->
+                    
+
 				
         	</div><!--row-->
         	
